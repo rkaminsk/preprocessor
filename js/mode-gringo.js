@@ -472,7 +472,7 @@ var GringoHighlightRules = function() {
       ],
       '#keyword': 
       [ { token: 'keyword.control', 
-          regex: '#include\\b|#show\\b|#program\\b|#const\\b|#sum\\+|#sum\\b|#count\\b|#minimize\\b|#maximize\\b|#true\\b|#false\\b|#theory\\b'
+          regex: '#sup\\b|#inf\\b|#project\\b|#external\\b|#include\\b|#show\\b|#program\\b|#const\\b|#sum\\+|#sum\\b|#count\\b|#minimize\\b|#maximize\\b|#true\\b|#false\\b|#theory\\b'
         },
       ],
       '#operator': 
