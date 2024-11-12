@@ -1,0 +1,25 @@
+var classClingo_1_1Control_1_1BuildContext =
+[
+    [ "BuildContext", "classClingo_1_1Control_1_1BuildContext.html#a70bc657a959726ac3a984d7de4b3f4e9", null ],
+    [ "add_base", "classClingo_1_1Control_1_1BuildContext.html#a262634b688881a91e31d4f68211f5f8e", null ],
+    [ "add_project", "classClingo_1_1Control_1_1BuildContext.html#ac9af4c739f06ff0c6d9560a6d2dd2d92", null ],
+    [ "body", "classClingo_1_1Control_1_1BuildContext.html#a647a3dddedd0d89738ac475d34123a5f", null ],
+    [ "context", "classClingo_1_1Control_1_1BuildContext.html#a26b3eab2bc10b0c50cd9a35ef6f1e497", null ],
+    [ "def_map", "classClingo_1_1Control_1_1BuildContext.html#ab973a0b4b4d528e351fdfc81abdd17f4", null ],
+    [ "gcomp", "classClingo_1_1Control_1_1BuildContext.html#a792b9c02a168dd58e28531ff3c2e38b5", null ],
+    [ "inc_priority", "classClingo_1_1Control_1_1BuildContext.html#a10ad1f7c89fe975cac29f454001e5679", null ],
+    [ "index", "classClingo_1_1Control_1_1BuildContext.html#a68e424a3b1c45b8f7e397830ad941b39", null ],
+    [ "logger", "classClingo_1_1Control_1_1BuildContext.html#a375405532bbed3f03cdb58750f50d4ba", null ],
+    [ "mbr", "classClingo_1_1Control_1_1BuildContext.html#a72f527f43f276b86859daa18a8f7d0c0", null ],
+    [ "next_index", "classClingo_1_1Control_1_1BuildContext.html#a04a6e5233cc3d3ab932c01fdf82eeccc", null ],
+    [ "simple_lit", "classClingo_1_1Control_1_1BuildContext.html#aca58066952367d38e1d261e240acee2d", null ],
+    [ "simple_lit", "classClingo_1_1Control_1_1BuildContext.html#a9ea799ac4e6e96eeaf4764426c993c7e", null ],
+    [ "single_pass", "classClingo_1_1Control_1_1BuildContext.html#acaa9b0c103f8ffa61d580c01c296cbc9", null ],
+    [ "single_pass_body", "classClingo_1_1Control_1_1BuildContext.html#a68bdd4870046e8360906884fd0fa553c", null ],
+    [ "state", "classClingo_1_1Control_1_1BuildContext.html#a3053a7a74244029671bb5df234c1434b", null ],
+    [ "store", "classClingo_1_1Control_1_1BuildContext.html#a23d6899af41d62a947a9e4a13350044d", null ],
+    [ "type", "classClingo_1_1Control_1_1BuildContext.html#a7f585fa03ee2b7bf83ddcf06a847e43a", null ],
+    [ "var_map", "classClingo_1_1Control_1_1BuildContext.html#a8786127790de9804aeb009c61049f7a3", null ],
+    [ "with_simple_lit", "classClingo_1_1Control_1_1BuildContext.html#a921fa5dce7369c112d213b25adcde48e", null ],
+    [ "with_simple_lit", "classClingo_1_1Control_1_1BuildContext.html#a2d143e45126fd0a78736c6bd9c50bd73", null ]
+];

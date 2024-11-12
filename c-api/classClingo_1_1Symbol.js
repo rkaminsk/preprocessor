@@ -1,0 +1,26 @@
+var classClingo_1_1Symbol =
+[
+    [ "Symbol", "classClingo_1_1Symbol.html#a913a0b95ccd41ddf33f022b11b1a34a1", null ],
+    [ "acquire", "classClingo_1_1Symbol.html#a2df261f53fde8437426cc9f640f27e10", null ],
+    [ "args", "classClingo_1_1Symbol.html#a61cafa50b91897148609740f5420c07e", null ],
+    [ "flip_classical_sign", "classClingo_1_1Symbol.html#ad2049559a1fe1d7201b57584f3d70a37", null ],
+    [ "has_classical_sign", "classClingo_1_1Symbol.html#a2f55bf6a1ece03306953902fd62d2a56", null ],
+    [ "has_sign", "classClingo_1_1Symbol.html#a27e4b72a4b56fdc38d2cfc18869388f9", null ],
+    [ "hash", "classClingo_1_1Symbol.html#ace6e05ed537e2aa620d04704a6a3fe03", null ],
+    [ "name", "classClingo_1_1Symbol.html#adf91cfa81665433185bedc74c2c0e138", null ],
+    [ "num", "classClingo_1_1Symbol.html#a039c27293d122188fe43777f774f1aff", null ],
+    [ "release", "classClingo_1_1Symbol.html#abbd992a8f2bc765a27899da0e8783cb8", null ],
+    [ "str", "classClingo_1_1Symbol.html#a0cbb88d42824b87ee54f741063d209a0", null ],
+    [ "type", "classClingo_1_1Symbol.html#a69cf48168ec66aaf6634928d67a9d347", null ],
+    [ "compare", "classClingo_1_1Symbol.html#a4d63b455ff3b28352f2952d36b26a4f8", null ],
+    [ "compare", "classClingo_1_1Symbol.html#a9031bcdc3f213cd063c4c09125846137", null ],
+    [ "compare", "classClingo_1_1Symbol.html#ac370392215a560460b09255c0ef5fbba", null ],
+    [ "operator<<", "classClingo_1_1Symbol.html#a1b52c552728a7d2a1fca0e97fa7ea07c", null ],
+    [ "operator<<", "classClingo_1_1Symbol.html#aaa52feb7ff13f9d83e219cf8647b406d", null ],
+    [ "operator<=>", "classClingo_1_1Symbol.html#a52420ae1e2aaa73906729ed05e2cb19d", null ],
+    [ "operator<=>", "classClingo_1_1Symbol.html#a71e7d901f61a2d863e3e8b61dc67ede0", null ],
+    [ "operator<=>", "classClingo_1_1Symbol.html#a017f2e50ffe6fdfad20cd9f4854bdd5f", null ],
+    [ "operator==", "classClingo_1_1Symbol.html#aa105518391416641a314647acc6c02b0", null ],
+    [ "operator==", "classClingo_1_1Symbol.html#ae592e7c9115b9d0f59e6fc072b113f9a", null ],
+    [ "operator==", "classClingo_1_1Symbol.html#aca614cb4a4c57b4cb61ae8608370ea27", null ]
+];

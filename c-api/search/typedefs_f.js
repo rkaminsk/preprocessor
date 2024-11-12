@@ -1,0 +1,26 @@
+var searchData=
+[
+  ['setaggregateelementarray_0',['SetAggregateElementArray',['../group__input__aggregate.html#gaabff1b36c64d877653165b5ae32a5cf9',1,'Clingo::Input']]],
+  ['sharedsig_1',['SharedSig',['../group__input__term.html#ga58e0889242beef57b2a833b26a75ac93',1,'Clingo::Input']]],
+  ['sharedsigset_2',['SharedSigSet',['../group__input__term.html#ga92a3630c8caf8d1cc90364587c8cd113',1,'Clingo::Input']]],
+  ['sharedstringarray_3',['SharedStringArray',['../group__core__symbol.html#ga578650967687b727961951c1a9c60f8d',1,'Clingo']]],
+  ['sharedstringset_4',['SharedStringSet',['../group__core__symbol.html#ga6f63ebc958f11f1044dbc9b172d067be',1,'Clingo']]],
+  ['sharedstringspan_5',['SharedStringSpan',['../group__core__symbol.html#ga6554a1c0276f1e8c16f44f9b532d9787',1,'Clingo']]],
+  ['sharedstringvec_6',['SharedStringVec',['../group__core__symbol.html#gac06c6fc85a3c579571ae9b594278d6ec',1,'Clingo']]],
+  ['sharedsymbolspan_7',['SharedSymbolSpan',['../group__core__symbol.html#ga7253a6bd8c097191551168d68ec2422a',1,'Clingo']]],
+  ['sharedsymbolvec_8',['SharedSymbolVec',['../group__core__symbol.html#gabd8471ca6b591c6d3dde8629286bd077',1,'Clingo']]],
+  ['sig_9',['Sig',['../group__input__term.html#gafc6ee57225729c2a257440785e8bc246',1,'Clingo::Input']]],
+  ['simplifyresult_10',['SimplifyResult',['../group__input__rewrite.html#gaf852fdca5a828e15687bda5e6d1e3cce',1,'Clingo::Input']]],
+  ['simplifytermresult_11',['SimplifyTermResult',['../group__input__rewrite.html#gab924d396238818d88df8f9aff8d7b028',1,'Clingo::Input']]],
+  ['size_5ftype_12',['size_type',['../classClingo_1_1Util_1_1immutable__array.html#abffcf9264f8585286f3e230bfba70cea',1,'Clingo::Util::immutable_array']]],
+  ['source_13',['Source',['../classClingo_1_1Util_1_1ResultVec.html#a87a247b34a686fadaf250443aef89271',1,'Clingo::Util::ResultVec']]],
+  ['span_14',['Span',['../classClingo_1_1Util_1_1ResultVec.html#a9c4bd104a76e93d650c190becf5daebd',1,'Clingo::Util::ResultVec']]],
+  ['stm_15',['Stm',['../group__input__statement.html#ga08c82d006c11ff508df5c7b7fc7cf4e5',1,'Clingo::Input']]],
+  ['stmvec_16',['StmVec',['../group__input__statement.html#ga401699f8fb69a2ab5d30d522c2704db9',1,'Clingo::Input']]],
+  ['stringset_17',['StringSet',['../group__core__symbol.html#gab7f7cb5a2b032dc08f1b916fa5af64dc',1,'Clingo']]],
+  ['stringspan_18',['StringSpan',['../group__core__symbol.html#ga299e306a02808a52d7462b4659affb64',1,'Clingo']]],
+  ['stringvec_19',['StringVec',['../group__core__symbol.html#gabe06e638d460c531004cbd3331a8ed15',1,'Clingo']]],
+  ['symbolicatom_20',['SymbolicAtom',['../group__ground__base.html#gab97163696ca953fdc56b60a04b4510f9',1,'Clingo::Ground']]],
+  ['symbolspan_21',['SymbolSpan',['../group__core__symbol.html#gaba1fced0a2629994c4b2ac81f461e229',1,'Clingo']]],
+  ['symbolvec_22',['SymbolVec',['../group__core__symbol.html#ga82bf86d3440751bd600570cdb97f7508',1,'Clingo']]]
+];

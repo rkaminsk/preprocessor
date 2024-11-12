@@ -1,0 +1,28 @@
+var classClingo_1_1Util_1_1ResultVec =
+[
+    [ "Array", "classClingo_1_1Util_1_1ResultVec.html#ab9c660d041becc918ded9c466dec6c76", null ],
+    [ "Iterator", "classClingo_1_1Util_1_1ResultVec.html#af9acdeada71ac8324a3311f3859cb94c", null ],
+    [ "Result", "classClingo_1_1Util_1_1ResultVec.html#a33908aa722b0d93f3270a1c652aa5d83", null ],
+    [ "Source", "classClingo_1_1Util_1_1ResultVec.html#a87a247b34a686fadaf250443aef89271", null ],
+    [ "Span", "classClingo_1_1Util_1_1ResultVec.html#a9c4bd104a76e93d650c190becf5daebd", null ],
+    [ "ValueType", "classClingo_1_1Util_1_1ResultVec.html#af44e6fd9138cc5d44b88fe79eca19137", null ],
+    [ "Vector", "classClingo_1_1Util_1_1ResultVec.html#aae4ab34fd043cfa3b56b4a9f5e0d38d8", null ],
+    [ "ResultVec", "classClingo_1_1Util_1_1ResultVec.html#a5e363cfd61e4680aa2d691718f03d7be", null ],
+    [ "append", "classClingo_1_1Util_1_1ResultVec.html#ae989ceca471549480eff9d44d6590657", null ],
+    [ "as_optional", "classClingo_1_1Util_1_1ResultVec.html#acac50879ee36620861faa849ae27d649", null ],
+    [ "as_optional", "classClingo_1_1Util_1_1ResultVec.html#a5b43d0d4411f6b22212781f1ff3ca3f9", null ],
+    [ "complete", "classClingo_1_1Util_1_1ResultVec.html#a236670a96c523ad2b1151d881fa0486e", null ],
+    [ "current", "classClingo_1_1Util_1_1ResultVec.html#a5a320ee732eac303f1a79ca053373a96", null ],
+    [ "extend", "classClingo_1_1Util_1_1ResultVec.html#aedcd8cb3cc48f95bf7899fd4bd0461ea", null ],
+    [ "has_value", "classClingo_1_1Util_1_1ResultVec.html#a11f887ed469c0f959c2975a9280c654a", null ],
+    [ "keep", "classClingo_1_1Util_1_1ResultVec.html#ad2521d4f1f865ac919d5876b9b5ece1a", null ],
+    [ "keep_all", "classClingo_1_1Util_1_1ResultVec.html#a5540a2549aad3a7f467bd811c849d40d", null ],
+    [ "operator bool", "classClingo_1_1Util_1_1ResultVec.html#a6eab300fb52dc0f95f393edb682fe49b", null ],
+    [ "operator*", "classClingo_1_1Util_1_1ResultVec.html#aeaa093e46c848790d1796504caca3586", null ],
+    [ "operator*", "classClingo_1_1Util_1_1ResultVec.html#a18e3633c6c076fccc47ea014858ce87a", null ],
+    [ "remove", "classClingo_1_1Util_1_1ResultVec.html#a5586c7fedd1f1d6b92aaa5250c510325", null ],
+    [ "replace", "classClingo_1_1Util_1_1ResultVec.html#a73d52784d00b0b5ac047696098c65200", null ],
+    [ "update", "classClingo_1_1Util_1_1ResultVec.html#a07bee7f1a7ca1ebaf615837a5f5482ef", null ],
+    [ "value", "classClingo_1_1Util_1_1ResultVec.html#aaf235279b2cee9db8c33332fc2242c25", null ],
+    [ "value", "classClingo_1_1Util_1_1ResultVec.html#ac4a0f920b40f925f78d28a1c957570ef", null ]
+];

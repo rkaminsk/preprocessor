@@ -1,0 +1,22 @@
+var searchData=
+[
+  ['ubase_0',['UBase',['../group__ground__base.html#gad4f92bb52604e7998246c4044ba44680',1,'Clingo::Ground']]],
+  ['ulit_1',['ULit',['../group__ground__literal.html#gadf6c058d00ad75c85c38ab3019c5f1bc',1,'Clingo::Ground']]],
+  ['ulitvec_2',['ULitVec',['../group__ground__literal.html#ga3b263b2a873d9893b94016c0ef1bc824',1,'Clingo::Ground']]],
+  ['umatcher_3',['UMatcher',['../group__ground__instantiator.html#gaefe93712db0c004688d20a335c76b6e0',1,'Clingo::Ground']]],
+  ['umatchervec_4',['UMatcherVec',['../group__ground__instantiator.html#ga5d1f14d027d710b8fb1ead9cf4957610',1,'Clingo::Ground']]],
+  ['unordered_5fmap_5',['unordered_map',['../group__util__container.html#ga374ffe890c65539b6ffae6ad58e4b92f',1,'Clingo::Util']]],
+  ['unordered_5fset_6',['unordered_set',['../group__util__container.html#gac12a35f4805b75e71975654c0e4976b9',1,'Clingo::Util']]],
+  ['unparsedelementarray_7',['UnparsedElementArray',['../group__input__theory.html#ga089ed780f23243290094205427a0fa4c',1,'Clingo::Input']]],
+  ['uoutputstm_8',['UOutputStm',['../group__core__output.html#ga41e9d3efe6b334814499682ef4440b06',1,'Clingo']]],
+  ['uscript_9',['UScript',['../group__control.html#ga1ae4214ee356fae39eabb76ac2e26011',1,'Clingo::Control']]],
+  ['ustate_10',['UState',['../group__ground__base.html#ga20257e9ec34fc31553592d23973a6d36',1,'Clingo::Ground']]],
+  ['ustatevec_11',['UStateVec',['../group__ground__base.html#gae70b50e952a133d0781f26b9154cca5e',1,'Clingo::Ground']]],
+  ['ustm_12',['UStm',['../group__ground__stm.html#ga8f05d897c8a6d6d4e6a25f84acbb7347',1,'Clingo::Ground']]],
+  ['ustmvec_13',['UStmVec',['../group__ground__stm.html#ga94d6341c9655f9a846a703ca1cdfe2be',1,'Clingo::Ground']]],
+  ['usymbolstore_14',['USymbolStore',['../group__core__symbol.html#ga4717f3941da8dbb5d08b9737a4bfef4e',1,'Clingo']]],
+  ['uterm_15',['UTerm',['../group__ground__term.html#ga924c2c5a57995e9f80d2f93ff3146496',1,'Clingo::Ground']]],
+  ['utermvec_16',['UTermVec',['../group__ground__term.html#ga9bbd7bf4bd7cdb2fea937322dbec1479',1,'Clingo::Ground']]],
+  ['utheoryterm_17',['UTheoryTerm',['../group__ground__theory.html#ga40b61a669821b85c1ffde2f67933f91f',1,'Clingo::Ground']]],
+  ['utheorytermvec_18',['UTheoryTermVec',['../group__ground__theory.html#ga87d36234cdb3f14d817bc9471d61fa0c',1,'Clingo::Ground']]]
+];

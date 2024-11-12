@@ -1,0 +1,20 @@
+var searchData=
+[
+  ['gc_0',['gc',['../classClingo_1_1SymbolStore.html#aafc69aa619461c7b3e769ed2f8b2fb82',1,'Clingo::SymbolStore']]],
+  ['gc_5fadd_5fowner_1',['gc_add_owner',['../classClingo_1_1SymbolStore.html#a128e2b86d7f2029bf0ca6000d04f8a5d',1,'Clingo::SymbolStore']]],
+  ['gc_5fblock_2',['gc_block',['../classClingo_1_1SymbolStore.html#a6fa8ad9db1ec4d5dfde768cb9a155419',1,'Clingo::SymbolStore']]],
+  ['gc_5fdel_5fowner_3',['gc_del_owner',['../classClingo_1_1SymbolStore.html#ab6dd5c4520581679c9c508c000cadac3',1,'Clingo::SymbolStore']]],
+  ['gc_5funblock_4',['gc_unblock',['../classClingo_1_1SymbolStore.html#afb7662e8d739530fe6f5309ab7590c82',1,'Clingo::SymbolStore']]],
+  ['gclock_5',['GCLock',['../classClingo_1_1GCLock.html#a8b7ddac468e6e2f772b1a48eea30e8d9',1,'Clingo::GCLock']]],
+  ['gcomp_6',['gcomp',['../classClingo_1_1Control_1_1BuildContext.html#a792b9c02a168dd58e28531ff3c2e38b5',1,'Clingo::Control::BuildContext']]],
+  ['gen_7',['gen',['../classClingo_1_1Input_1_1RewriteContext.html#a915a92a26aa1fe1897be98043ae23594',1,'Clingo::Input::RewriteContext']]],
+  ['get_8',['get',['../classClingo_1_1Util_1_1immutable__value.html#ac12ac0e595b29e047e9ccfa4f7127e6e',1,'Clingo::Util::immutable_value::get()'],['../classClingo_1_1SharedString.html#a14e0b4778fcc7569e941534bb02de4ce',1,'Clingo::SharedString::get()'],['../classClingo_1_1SharedSymbol.html#a8932e61a8f6c8fac5f0e0c1ca2e6bcaf',1,'Clingo::SharedSymbol::get()']]],
+  ['get_5findex_9',['get_index',['../group__util__record.html#ga44ebc91a8e6975e1c5a305bef01c260b',1,'Clingo::Util::Record']]],
+  ['get_5findex_5f_10',['get_index_',['../group__util__record.html#gaa53f3dd2ba5347756b0ff258b4b9de3e',1,'Clingo::Util::Record']]],
+  ['get_5fvalue_11',['get_value',['../classClingo_1_1Util_1_1Record_1_1Base.html#aed1b5ad4b3ecb0de480e1f19df80a6e0',1,'Clingo::Util::Record::Base']]],
+  ['global_12',['global',['../classClingo_1_1Ground_1_1StateAssignAggr.html#af8950ab63bb22109f4bef1881ceaaba3',1,'Clingo::Ground::StateAssignAggr::global()'],['../classClingo_1_1Ground_1_1StateBdAggr.html#a61d94d36c551dc5409033faaaaa6ca33',1,'Clingo::Ground::StateBdAggr::global()'],['../classClingo_1_1Ground_1_1StateDisjunction.html#addf9bd0bc881504c3f90c3d111f56bc5',1,'Clingo::Ground::StateDisjunction::global()'],['../classClingo_1_1Ground_1_1StateHdAggr.html#a57e41277c0bde6490262b783048acdd7',1,'Clingo::Ground::StateHdAggr::global()'],['../classClingo_1_1Ground_1_1StateTheory.html#a1819776fb3e5a9e8fea137a233d52c77',1,'Clingo::Ground::StateTheory::global()']]],
+  ['ground_13',['ground',['../classClingo_1_1Control_1_1Grounder.html#aeccb81e4aa8bc59ce13ae8de7c29237f',1,'Clingo::Control::Grounder::ground()'],['../classClingo_1_1Control_1_1Solver.html#a3f9144cd31c6bfeadc551ef21ade819c',1,'Clingo::Control::Solver::ground()']]],
+  ['grounder_14',['Grounder',['../classClingo_1_1Control_1_1Grounder.html#a80f68f9730f6da9f52ea8c9d3cb863ee',1,'Clingo::Control::Grounder']]],
+  ['guard_15',['guard',['../classClingo_1_1Ground_1_1StateTheory.html#a96b91c1d3496be34c5f3cd030ab01272',1,'Clingo::Ground::StateTheory']]],
+  ['guards_16',['guards',['../classClingo_1_1Ground_1_1StateBdAggr.html#aa2f558ebbaf92ff685d2cd1b7915abf6',1,'Clingo::Ground::StateBdAggr::guards()'],['../classClingo_1_1Ground_1_1StateHdAggr.html#acaa54849f0540355c51db1eed1a53a4d',1,'Clingo::Ground::StateHdAggr::guards()']]]
+];
