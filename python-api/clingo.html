@@ -21,6 +21,16 @@
             <input type="search" placeholder="Search..." role="searchbox" aria-label="search"
                    pattern=".+" required>
 
+            <h2>Contents</h2>
+            <ul>
+  <li><a href="#terms">Terms</a></li>
+  <li><a href="#symbolic-atoms-and-literals">Symbolic Atoms and Literals</a></li>
+  <li><a href="#program-literals">Program Literals</a></li>
+  <li><a href="#solver-literals">Solver Literals</a></li>
+  <li><a href="#embedded-python-code">Embedded Python Code</a></li>
+  <li><a href="#examples">Examples</a></li>
+</ul>
+
 
             <h2>Submodules</h2>
             <ul>
@@ -46,6 +56,111 @@
 clingo    </h1>
 
                         <div class="docstring"><p>The clingo python module.</p>
+
+<p>Module providing functions and classes to control the grounding and solving
+process.</p>
+
+<p>Next follow some concepts used throughout the modules of the clingo package.</p>
+
+<h2 id="terms">Terms</h2>
+
+<p>Terms without variables and interpreted functions are called symbols in the
+following. They are wrapped in the <code><a href="clingo/symbol.html#Symbol">clingo.symbol.Symbol</a></code> class.</p>
+
+<h2 id="symbolic-atoms-and-literals">Symbolic Atoms and Literals</h2>
+
+<p><em>Symbolic atoms</em> without variables and interpreted functions, which appear in
+ground logic programs, are captured using the <code><a href="clingo/symbol.html#Symbol">clingo.symbol.Symbol</a></code> class.
+They must be of type <code><a href="clingo/symbol.html#Function">clingo.symbol.SymbolType.Function</a></code>. Furthermore, some
+functions accept <em>symbolic literals</em>, which are represented as pairs of symbols
+and Booleans. The Boolean stands for the sign of the literal (<code>True</code> for
+positive and <code>False</code> for negative).</p>
+
+<h2 id="program-literals">Program Literals</h2>
+
+<p>When passing a ground logic program to a solver, clingo does not use a human
+readable textual representation but the aspif format. The literals in this
+format are called <em>program literals</em>. They are non-zero integers associated
+with symbolic atoms, theory atoms, and also without any association if they are
+used to translate complex language constructs not directly representable in
+aspif format. The sign of a program literal is used to represent default
+negation. Symbolic atoms can be mapped to program literals using the
+<code>clingo.symbolic_atoms</code> module and theory atoms using the <code>clingo.theory_atoms</code>
+module. Note that symbolic and theory atoms can share the same program
+literals. Finally, the <code>clingo.backend</code> module can also be used to introduce
+fresh symbolic atoms and program literals.</p>
+
+<h2 id="solver-literals">Solver Literals</h2>
+
+<p>Before solving, programs in aspif format are translated to an internal solver
+representation, where program literals are again mapped to non-zero integers,
+so called <em>solver literals</em>. The <code>clingo.propagator.PropagateInit.solver_literal</code>
+function can be used to map program literals to solver literals. Note that
+different program literals can share the same solver literal.</p>
+
+<h2 id="embedded-python-code">Embedded Python Code</h2>
+
+<p>If the clingo application is build with Python support, clingo will also be
+able to execute Python code embedded in logic programs. Functions defined in a
+Python script block are callable during the instantiation process using
+<code>@</code>-syntax. The default grounding/solving process can be customized if a main
+function is provided.</p>
+
+<h2 id="examples">Examples</h2>
+
+<p>The first example shows how to use the clingo module from Python.</p>
+
+<div class="pdoc-code codehilite">
+<pre><span></span><code><span class="o">&gt;&gt;&gt;</span> <span class="kn">from</span> <span class="nn"><a href="clingo/core.html">clingo.core</a></span> <span class="kn">import</span> <span class="n">Library</span>
+<span class="o">&gt;&gt;&gt;</span> <span class="kn">from</span> <span class="nn"><a href="clingo/symbol.html">clingo.symbol</a></span> <span class="kn">import</span> <span class="n">Number</span>
+<span class="o">&gt;&gt;&gt;</span> <span class="kn">from</span> <span class="nn"><a href="clingo/control.html">clingo.control</a></span> <span class="kn">import</span> <span class="n">Control</span>
+<span class="o">&gt;&gt;&gt;</span>
+<span class="o">&gt;&gt;&gt;</span> <span class="k">class</span> <span class="nc">Context</span><span class="p">:</span>
+<span class="o">...</span>     <span class="k">def</span> <span class="fm">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">lib</span><span class="p">):</span>
+<span class="o">...</span>       <span class="bp">self</span><span class="o">.</span><span class="n">lib</span> <span class="o">=</span> <span class="n">lib</span>
+<span class="o">...</span>     <span class="k">def</span> <span class="nf">inc</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">x</span><span class="p">):</span>
+<span class="o">...</span>         <span class="k">return</span> <span class="n">Number</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">lib</span><span class="p">,</span> <span class="n">x</span><span class="o">.</span><span class="n">number</span> <span class="o">+</span> <span class="mi">1</span><span class="p">)</span>
+<span class="o">...</span>     <span class="k">def</span> <span class="nf">seq</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">x</span><span class="p">,</span> <span class="n">y</span><span class="p">):</span>
+<span class="o">...</span>         <span class="k">return</span> <span class="p">[</span><span class="n">x</span><span class="p">,</span> <span class="n">y</span><span class="p">]</span>
+<span class="o">...</span>
+<span class="o">&gt;&gt;&gt;</span> <span class="n">lib</span> <span class="o">=</span> <span class="n">Library</span><span class="p">()</span>
+<span class="o">&gt;&gt;&gt;</span> <span class="n">ctl</span> <span class="o">=</span> <span class="n">Control</span><span class="p">(</span><span class="n">lib</span><span class="p">)</span>
+<span class="o">&gt;&gt;&gt;</span> <span class="n">ctl</span><span class="o">.</span><span class="n">parse_string</span><span class="p">(</span><span class="s2">&quot;&quot;&quot;</span>
+<span class="s2">... p(@inc(10)).</span>
+<span class="s2">... q(@seq(1,2)).</span>
+<span class="s2">... &quot;&quot;&quot;</span><span class="p">)</span>
+<span class="o">&gt;&gt;&gt;</span> <span class="n">ctl</span><span class="o">.</span><span class="n">ground</span><span class="p">(</span><span class="n">context</span><span class="o">=</span><span class="n">Context</span><span class="p">(</span><span class="n">lib</span><span class="p">))</span>
+<span class="o">&gt;&gt;&gt;</span> <span class="nb">print</span><span class="p">(</span><span class="n">ctl</span><span class="o">.</span><span class="n">solve</span><span class="p">(</span><span class="n">on_model</span><span class="o">=</span><span class="nb">print</span><span class="p">))</span>
+<span class="n">p</span><span class="p">(</span><span class="mi">11</span><span class="p">)</span> <span class="n">q</span><span class="p">(</span><span class="mi">1</span><span class="p">)</span> <span class="n">q</span><span class="p">(</span><span class="mi">2</span><span class="p">)</span>
+<span class="n">SAT</span>
+</code></pre>
+</div>
+
+<p>The second example shows how to use Python code from clingo.</p>
+
+<div class="pdoc-code codehilite">
+<pre><span></span><code><span class="c1">#script (python)</span>
+
+<span class="kn">from</span> <span class="nn"><a href="clingo/symbol.html">clingo.symbol</a></span> <span class="kn">import</span> <span class="n">Number</span>
+
+<span class="k">class</span> <span class="nc">Context</span><span class="p">:</span>
+    <span class="k">def</span> <span class="fm">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">lib</span><span class="p">):</span>
+      <span class="bp">self</span><span class="o">.</span><span class="n">lib</span> <span class="o">=</span> <span class="n">lib</span>
+    <span class="k">def</span> <span class="nf">inc</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">x</span><span class="p">):</span>
+        <span class="k">return</span> <span class="n">Number</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">lib</span><span class="p">,</span> <span class="n">x</span><span class="o">.</span><span class="n">number</span> <span class="o">+</span> <span class="mi">1</span><span class="p">)</span>
+    <span class="k">def</span> <span class="nf">seq</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">x</span><span class="p">,</span> <span class="n">y</span><span class="p">):</span>
+        <span class="k">return</span> <span class="p">[</span><span class="n">x</span><span class="p">,</span> <span class="n">y</span><span class="p">]</span>
+
+<span class="k">def</span> <span class="nf">main</span><span class="p">(</span><span class="n">lib</span><span class="p">,</span> <span class="n">ctl</span><span class="p">):</span>
+    <span class="n">ctl</span><span class="o">.</span><span class="n">ground</span><span class="p">(</span><span class="n">context</span><span class="o">=</span><span class="n">Context</span><span class="p">(</span><span class="n">lib</span><span class="p">))</span>
+    <span class="n">ctl</span><span class="o">.</span><span class="n">solve</span><span class="p">()</span>
+
+<span class="c1">#end.</span>
+
+<span class="n">p</span><span class="p">(</span><span class="nd">@inc</span><span class="p">(</span><span class="mi">10</span><span class="p">))</span><span class="o">.</span>
+<span class="n">q</span><span class="p">(</span><span class="nd">@seq</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span><span class="mi">2</span><span class="p">))</span><span class="o">.</span>
+</code></pre>
+</div>
 </div>
 
                 
